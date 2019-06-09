@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t eddiedj/react-test -f ./clent/dev.Dockerfile ./client
+  - docker build -t eddiedj/react-test -f ./client/dev.Dockerfile ./client
 
 script:
   - docker run -e CI=true eddiedj/react-test npm test -- --coverage
