@@ -1,6 +1,6 @@
 {
   "AWSEBDockerrunVersion": 2,
-  "containerDefinitons": [
+  "containerDefinitions": [
     {
       "name": "client",
       "image": "eddiedj/multi-client",
